@@ -1,4 +1,15 @@
-export { default as InputOTP } from './InputOTP.svelte';
-export { default as InputOTPGroup } from './InputOTPGroup.svelte';
-export { default as InputOTPSeparator } from './InputOTPSeparator.svelte';
-export { default as InputOTPSlot } from './InputOTPSlot.svelte';
+import Root from "./InputOTP.svelte";
+import Group from "./InputOTPGroup.svelte";
+import Slot from "./InputOTPSlot.svelte";
+import Separator from "./InputOTPSeparator.svelte";
+
+export {
+	Root,
+	Group,
+	Slot,
+	Separator,
+	Root as InputOTP,
+	Group as InputOTPGroup,
+	Slot as InputOTPSlot,
+	Separator as InputOTPSeparator,
+};
